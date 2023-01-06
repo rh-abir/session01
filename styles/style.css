@@ -97,6 +97,7 @@
     justify-content: space-around;
     color: white;
     background-attachment: fixed;
+    padding-bottom: 120px;
 
 }
 .service-left{
@@ -151,7 +152,7 @@
 
 .service-right{
     display: flex;
-}gi
+}
 .service{
     background-color: white;
     color: #000;
@@ -167,4 +168,95 @@
 .service-right img{
     width: 100px;
     padding: 20px;
+}
+
+/* appointment-section styles */
+
+.appointment-section{
+    width: 65%;
+    background-color: #F52C2C;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: -7%;
+    border-radius: 15px;
+}
+.call-box{
+    display: flex;
+    align-items: center;
+}
+.call-logo img{
+    width: 90px;
+}
+.call-content{
+    color: white;
+    padding: 15px 20px;
+    border-right: 2px solid gray;
+}
+.call-content h3{ 
+    font-size: 18px;
+}
+.appointment-descript{
+    color: white;
+    font-size: 16px;
+    margin: 0 10px;
+    text-align: center;
+
+}
+.btn-apponit{
+    width: 240px;
+    border-radius: 25px;
+}
+
+
+/* blog-section styles */
+.blog-section{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.blog-title{
+    margin: 40px 0;
+}
+.blog-title h2{
+    font-size: 40px;
+}
+.blog-title p{
+    width: 45%;
+    margin: 0 auto;
+    font-size: 23px;
+}
+
+.blog-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+.item{
+    width: 350px;
+    height: 430px;
+    background-color: white;
+    box-shadow: 4px 4px 8px grey;
+    border-radius: 10px;
+}
+
+.item img{
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.blog-text{
+    padding:10px 10px 0px 20px;
+    text-align: left;
+}
+.blog-text h3{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.blog-text p{
+    font-size: 18px;
+    line-height: 22px;
 }
