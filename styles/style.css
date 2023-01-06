@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.primary-color{
+
+.primary-color {
     color: #F52C2C;
 }
-.btn{
+
+.btn {
     padding: 15px 35px;
     border: none;
     font-size: 16px;
@@ -13,38 +15,44 @@
 
 }
 
-.header-section{
+.header-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#b6b6b6;
+    background-color: #b6b6b6;
     padding: 15px;
 }
-.left-area{
+
+.left-area {
     display: flex;
     align-items: center;
 }
-.left-area h5{
+
+.left-area h5 {
     color: #00FFFF;
     font-size: 18px;
 }
-.logo-text{
+
+.logo-text {
     color: #8ae6d2;
     font-size: 20px;
     font-weight: bold;
-    
+
 }
-.right-area ul{
+
+.right-area ul {
     display: flex;
 }
+
 .right-area ul li {
     list-style: none;
     margin-left: 15px;
     font-size: 20px;
 }
+
 /* banner-section styles */
-.banner-section{
-    background-image: url("../asset/image/background.jpg"),linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0,0.3));
+.banner-section {
+    background-image: url("../asset/image/background.jpg"), linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
     background-blend-mode: overlay;
     background-position: center;
     width: 100%;
@@ -55,19 +63,108 @@
     text-align: center;
 
 }
-.digital-banner .title{
+
+.digital-banner .title {
     font-size: 86px;
     font-weight: 900;
     color: white;
- }
-.digital-banner .description{
+}
+
+.digital-banner .description {
     width: 40%;
     margin: 0 auto;
     color: white;
     font-size: 22px;
     padding: 10px;
- }
-.btn-more{
-      background-color: #F52C2C;
-      color: #fff;
+}
+
+.btn-more {
+    background-color: #F52C2C;
+    color: #fff;
+}
+
+/* service-section */
+
+.service-section{
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(to bottom, rgba(0, 0, 0,1), rgba(0, 0, 0, 0.8));
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-attachment: fixed;
+
+}
+.service-left{
+    width: 40%;
+}
+.service-btn{
+    color: gray;
+    border-radius: 25px;
+}
+.sercie-article h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #BECFD0;
+}
+.sercie-article p{
+    color: #BECFD0;
+    width: 90%;
+    font-size: 20px;
+    margin: 10px 0px 20px 0px;
+}
+.sercie-article li{
+    font-size: 20px;
+    color: #BECFD0;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+}
+
+.author-left{
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    padding-right: 20px;
+    border-right: 1px solid  #F52C2C;;
+}
+
+.author-left img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.more-details-btn{
+    border-radius: 25px;
+    color: #F52C2C;
+}
+
+.service-right{
+    display: flex;
+}gi
+.service{
+    background-color: white;
+    color: #000;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 15px;
+    box-shadow: 4px 4px 8px rgb(26 24 24);
+}
+
+.service-right img{
+    width: 100px;
+    padding: 20px;
 }
